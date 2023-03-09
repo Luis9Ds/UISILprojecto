@@ -142,3 +142,17 @@ print ("El usuario es intenso?")
 print (intenso)
 
 print (f"La edad de Luis Diego es: {edad} y su apellido es Picado, la intensidad de su ejercisio es {intensidad} y su frecuencia es {frecuencia}") 
+
+# El profe puso de practica
+print("--------------------------------------------------------------------------")
+
+Numero_de_celular = "85631331"
+
+respuesta_si = Numero_de_celular = "https://wa.me/50685631331"
+respuesta_no = "pues que incomodo"
+
+print("si quieres tener exito")
+print(respuesta_si)
+
+print("Que no quieres tener exito?")
+print (respuesta_no)
