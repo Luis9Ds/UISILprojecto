@@ -148,11 +148,9 @@ print("-------------------------------------------------------------------------
 
 Numero_de_celular = "85631331"
 
-respuesta_si = Numero_de_celular = "https://wa.me/50685631331"
-respuesta_no = "pues que incomodo"
+respuesta_si =  f"https://wa.me/506{Numero_de_celular}"
+
 
 print("si quieres tener exito")
-print(respuesta_si)
+print(f"Este es tu Link {respuesta_si}")
 
-print("Que no quieres tener exito?")
-print (respuesta_no)
