@@ -18,7 +18,7 @@ print(nombre_completo.title())
 # Ejercicio 2 Esto fue una tortura de sacar, especificamente porque todo el rato me sacaba de resultado el nombre tipo "LuisLuisLuis" En vez de un salto de linea de codigo
 # Imagina mi cara cuando me di cuenta del \n
 print("------------------------------")
-Administrador = input(f"Bienvendido: ")
+Administrador = input(f"¿Cual es tu Nombre?: ")
 Repeticion = int(input("Por favor ingresa un numero: "))
 
 
