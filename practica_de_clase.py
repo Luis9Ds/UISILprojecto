@@ -38,4 +38,3 @@ Resto = Numero_1 % Numero__2
 print(f"La Cociente de la Operacion es {Cociente} Y su resto es {Resto}")
 
 
-
