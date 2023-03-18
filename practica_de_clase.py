@@ -26,3 +26,16 @@ Estatura_al_cuadrado = Estatura * Estatura
 IMC = Peso / Estatura_al_cuadrado
 
 print(f"Su indice de masa corporal corresponde a {IMC}")
+
+# 6:
+print("-------------------------------------------------------------------------------------------------------")
+Numero_1 = 40
+Numero__2 = 20
+
+Cociente = Numero_1 / Numero__2
+Resto = Numero_1 % Numero__2
+
+print(f"La Cociente de la Operacion es {Cociente} Y su resto es {Resto}")
+
+
+
