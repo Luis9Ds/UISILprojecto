@@ -20,8 +20,7 @@ resultado = ((3 + 2) / (2 * 5)) ** 2
 print(f" el resultado de la operacion es {resultado}")
 
 
-# 5: Despues de hacer la practica del Input, me devolvi a esta parte para hacer tal cual lo que pedia la practica, de pedirle a su usuario su peso
-#  (No supe como redondearlo a 2 decimales)
+# 5: Despues de hacer la practica del Input, me devolvi a esta parte para hacer tal cual lo que pedia la practica
 print("-------------------------------------------------------------------------------------------------------")
 peso = int(input("Por favor ingrese su peso en kg: "))
 estatura = float(input("Por favor ingrese su estatura en metros: "))
