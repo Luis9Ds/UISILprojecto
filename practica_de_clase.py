@@ -21,13 +21,15 @@ print(f" el resultado de la operacion es {resultado}")
 
 
 # 5: Despues de hacer la practica del Input, me devolvi a esta parte para hacer tal cual lo que pedia la practica, de pedirle a su usuario su peso
+#  (No supe como redondearlo a 2 decimales)
 print("-------------------------------------------------------------------------------------------------------")
-Peso = int(input("Por favor ingrese su peso en kg: "))
-Estatura = float(input("Por favor ingrese su estatura en metros: "))
-Estatura_al_cuadrado = Estatura * Estatura
-IMC = Peso / Estatura_al_cuadrado
+peso = int(input("Por favor ingrese su peso en kg: "))
+estatura = float(input("Por favor ingrese su estatura en metros: "))
+estatura_al_cuadrado = estatura * estatura
+imc = peso / estatura_al_cuadrado
 
-print(f"Su indice de masa corporal corresponde a {IMC}")
+print(f"Tu índice de masa corporal es {round(imc, 2)}")
+
 
 # 6:
 print("-------------------------------------------------------------------------------------------------------")
