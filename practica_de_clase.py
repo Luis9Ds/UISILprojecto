@@ -20,10 +20,10 @@ resultado = ((3 + 2) / (2 * 5)) ** 2
 print(f" el resultado de la operacion es {resultado}")
 
 
-# 5:
+# 5: Despues de hacer la practica del Input, me devolvi a esta parte para hacer tal cual lo que pedia la practica, de pedirle a su usuario su peso
 print("-------------------------------------------------------------------------------------------------------")
-Peso = 78
-Estatura = 1.76
+Peso = int(input("Por favor ingrese su peso en kg: "))
+Estatura = float(input("Por favor ingrese su estatura en metros: "))
 Estatura_al_cuadrado = Estatura * Estatura
 IMC = Peso / Estatura_al_cuadrado
 
