@@ -154,3 +154,41 @@ respuesta_si =  f"https://wa.me/506{Numero_de_celular}"
 print("si quieres tener exito")
 print(f"Este es tu Link {respuesta_si}")
 
+
+# Inicio de la clase del 21/03/2023
+
+# Los programas inteligentes usan booleanos para tomar decisiones sobre si ejecutar lineas de codigo u omitirlas
+edades = int(input("Digame su edad: "))
+if edades >= 18:
+    print("Mayor de edad")
+else:
+    print("No es mayor de edad")
+
+activo = True
+if activo == True:
+    print("el usuario esta activo")
+    activo = False
+    num = 20
+
+cargado = False
+if cargado:
+    print("ta cargado") 
+# No entra, en este caso debido a que si no se especifica la condicion de "cargado" en el if, lo tomara como True
+
+nota = 80
+if nota >= 80 :
+    print("Pasaste el curso")
+else: 
+    print("Suerte para la proxima")
+
+porcentaje = 65
+if porcentaje < 60 :
+    print("Reprobado")
+elif porcentaje < 70:
+    print("Toca parciales")
+else:
+    print("Aprobaste")
+
+
+
+

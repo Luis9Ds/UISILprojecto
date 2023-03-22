@@ -25,7 +25,7 @@ Horas_trabajadas = 8
 coste_por_hora = 15000
 Pago = Horas_trabajadas * coste_por_hora
 
-print("¿Cuantas horas ah estado laburando?")
+print("¿Cuantas horas ha estado laburando?")
 print(Horas_trabajadas)
 
 print(f"Su paga corresponde a {Pago} Colones")
