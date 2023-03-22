@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FONT GOOGLE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <!-- animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <div class="content animate__animated animate__fadeInLeftBig">
+        <h1 class="logo">Contacto <span>Pro</span></h1>
+
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="https://formsubmit.co/diegopicadobe@gmail.com" method="POST">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Gmail</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero Telefonico</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Direccion</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <button class="cssbuttons-io-button" name="submit"> Enviame un Gmail
+                        <div class="icon">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+
+                    <input type="hidden" name="_subject" value="Nueva proforma">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact-form.html">
+
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Mas informacion</h2>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Ya eh guardado este codigo como 3 veces</li>
+                    <li><i class="fas fa-phone"></i> +506 85631331</li>
+                    <li><i class="fas fa-envelope-open-text"></i> diegopicadobe@gmail.com</li>
+                </ul>
+                <p>Este es un mensaje de prueba, en caso de que NO estes viendo esto y en su lugar me salga un error quiere decir que acabo de destruir un simple codigo html jajaja
+                </p>
+                <p>https://www.youtube.com/watch?v=dQw4w9WgXcQ</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
