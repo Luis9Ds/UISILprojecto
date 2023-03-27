@@ -2,12 +2,25 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(6%2c 17%2c 27%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c572.807C104.196%2c549.211%2c142.333%2c419.079%2c232.431%2c361.67C323.084%2c303.907%2c476.373%2c335.68%2c523.651%2c239.143C570.591%2c143.296%2c454.515%2c42.464%2c440.579%2c-63.346C426.388%2c-171.093%2c499.415%2c-290.66%2c441.742%2c-382.771C383.905%2c-475.144%2c260.735%2c-503.733%2c153.315%2c-522.143C53.491%2c-539.251%2c-48.253%2c-521.694%2c-141.754%2c-482.771C-228.598%2c-446.619%2c-298.828%2c-383.288%2c-357.285%2c-309.589C-413.791%2c-238.35%2c-467.451%2c-158.575%2c-470.97%2c-67.715C-474.361%2c19.851%2c-400.205%2c87.478%2c-375.922%2c171.678C-345.779%2c276.197%2c-385.991%2c405.498%2c-311.607%2c484.87C-236.281%2c565.247%2c-107.437%2c597.137%2c0%2c572.807' fill='%23050e16'%3e%3c/path%3e%3cpath d='M1440 1188.589C1556.361 1184.828 1649.756 1101.726 1747.546 1038.55 1845.097 975.529 1957.0349999999999 923.665 2010.033 820.326 2063.94 715.2139999999999 2064.102 589.142 2036.995 474.165 2011.222 364.847 1942.376 272.842 1862.375 194.01 1786.944 119.68099999999998 1697.221 58.617999999999995 1593.518 37.166000000000054 1494.246 16.630999999999972 1390.641 35.549999999999955 1298.272 77.32 1213.388 115.70600000000002 1155.183 189.98399999999998 1096.172 262.071 1038.7440000000001 332.225 979.3109999999999 402.429 959.682 490.94100000000003 939.175 583.414 958.264 677.108 983.909 768.29 1013.441 873.2919999999999 1039.1970000000001 984.933 1119.408 1058.85 1205.936 1138.588 1322.395 1192.3899999999999 1440 1188.589' fill='%23071420'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    color: #fff;
-    line-height: 1.6;
-    font-family: 'Quicksand', sans-serif;
-    padding: 0 1.5em;
-}
+    
+        background-image: url("https://wallpaperaccess.com/full/2825826.gif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        line-height: 1.6;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0 1.5em;
+        color:rgb(255, 255, 255);
+        background-color: transparent;
+        opacity: 0.9;
+          
+          
+      }
+      
+
+
+  
+
 
 ul {
     list-style: none;
@@ -24,7 +37,7 @@ ul {
 }
 
 .contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255);
 }
 
 .contact-wrapper > * {
@@ -32,7 +45,7 @@ ul {
 }
 
 .contact-form {
-    background: #4444;
+    background: #746bec;
 }
 .contact-form form {
     display: grid;
@@ -57,14 +70,14 @@ ul {
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #251ca7;
+    border-bottom: 1px solid #d419e6;
 }
 
 
 /*Contact-info*/
 
 .contact-info {
-    background: #000;
+    background: #7031c2;
 }
 
 .contact-info h4,
@@ -75,7 +88,7 @@ ul {
 }
 
 .cssbuttons-io-button {
-    background: #572a91;
+    background: #7031c2;
     color: white;
     font-family: inherit;
     padding: 0.35em;
@@ -145,3 +158,12 @@ ul {
         text-align: left;
     }
 }
+html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
