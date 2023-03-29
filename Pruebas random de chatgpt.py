@@ -41,3 +41,21 @@ else:
     nombre_padre = input("Inserte el nombre de su padre/madre: ")
     id_padre = int(input("Inserte la identificación de su padre/madre: "))
     print(f"Gracias por la autorización, {nombre_padre} su hijo se le permite el ingreso")
+
+
+numero_1 = int(input("Por favor ingresa un numero: "))
+numero_2 = int(input("Por favor ingresa el segundo numero: "))
+suma = numero_1 + numero_2
+resta = numero_1 - numero_2
+division = numero_1 / numero_2
+multiplicacion = numero_1 * numero_2
+opcion = 1 == suma
+opcion = 2 == resta
+3 == division
+4 == multiplicacion
+print(f"Bienvenido a la calculadora Por favor aprete {1} para suma {2} para resta {3} para division y {4} para multiplicacion")
+int(input("Por favor digame su accion: "))
+if opcion == 1:
+    print(f"RESULTADO: La suma de {numero_1} + {numero_2}es igual a {suma}")
+elif opcion == 2:
+    print(f"RESULTADO: La resta de {numero_1} - {numero_2} es igual a {resta}")
