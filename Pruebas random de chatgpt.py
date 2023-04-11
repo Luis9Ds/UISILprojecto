@@ -59,3 +59,51 @@ if opcion == 1:
     print(f"RESULTADO: La suma de {numero_1} + {numero_2}es igual a {suma}")
 elif opcion == 2:
     print(f"RESULTADO: La resta de {numero_1} - {numero_2} es igual a {resta}")
+
+
+
+# Definición de variables
+a = "Hola "
+b = "Mundo"
+
+# Concatenación de variables en una lista
+lista = []
+lista.append(a[0])
+lista.append(a[1])
+lista.append(a[2])
+
+# Ciclo for para agregar caracteres a la lista
+for i in range(3, 6):
+    lista.append(a[i])
+
+# Ciclo while para agregar caracteres a la lista
+i = 6
+while i < len(a):
+    lista.append(a[i])
+    i += 1
+
+# Utilización de slicing para agregar caracteres a la lista
+lista += a[6:]
+
+# Uso de un bucle for para imprimir cada caracter de la lista
+for letra in lista:
+    print(letra, end=" ")
+
+# Uso de un bucle while para imprimir cada caracter de la lista
+i = 0
+while i < len(lista):
+    print(lista[i], end=" ")
+    i += 1
+
+# Utilización de un bucle for para imprimir cada caracter de la segunda parte
+for letra in b:
+    print(letra, end=" ")
+
+# Uso de un bucle while para imprimir cada caracter de la segunda parte
+i = 0
+while i < len(b):
+    print(b[i], end=" ")
+    i += 1
+
+# Imprimir "Hola Mundo" al final
+print("Hola Mundo")
